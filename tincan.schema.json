@@ -247,7 +247,7 @@
                     },
                     "patternProperties": {
                         "^(choices|scale|source|target|steps)$": {
-                            "type": "object",
+                            "type": "array",
                             "properties": {
                                 "id": {
                                     "type": "string",
